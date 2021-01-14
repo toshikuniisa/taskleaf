@@ -7,6 +7,8 @@ gem 'html2slim'
 gem 'bootstrap'
 gem 'rails-i18n'
 gem 'rails_autolink'
+gem 'ransack'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use mysql as the database for Active Record
@@ -52,6 +54,8 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
+  gem 'rspec-rails', '~> 3.7'
+  gem 'factory_bot_rails', '~> 4.11'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
